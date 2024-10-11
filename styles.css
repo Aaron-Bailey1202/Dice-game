@@ -58,28 +58,10 @@ footer {
   margin: 0;
   min-height: 3rem;
   padding: calc(.875rem - 1px) calc(1.5rem - 1px);
-  position: relative;
-  text-decoration: none;
-  transition: all 250ms;
+  position: relative;  
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
   vertical-align: baseline;
   width: auto;
-}
-
-#btnRefresh:hover,
-#btnRefresh:focus {
-  background-color: #fb8332;
-  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
-}
-
-#btnRefresh:hover {
-  transform: translateY(-1px);
-}
-
-#btnRefresh:active {
-  background-color: #c85000;
-  box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
-  transform: translateY(0);
 }
